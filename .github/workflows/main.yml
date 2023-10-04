@@ -31,5 +31,5 @@ jobs:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
-     - run: echo "🍏 This job's status is ${{ job.status }}."     
           labels: ${{ steps.meta.outputs.labels }}
+           
